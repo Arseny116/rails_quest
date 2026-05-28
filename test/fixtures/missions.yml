@@ -1,0 +1,9 @@
+one:
+  agent: one
+  title: Operation Nightfall
+  status: assigned
+
+two:
+  agent: two
+  title: Operation Sunrise
+  status: in_progress

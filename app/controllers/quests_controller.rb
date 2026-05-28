@@ -17,7 +17,7 @@ class QuestsController < ApplicationController
   private
 
   def set_quest
-    @quest = QuestProgress.find_by!(quest_number: params[:number])
+    @quest =  QuestProgress.find_by!(quest_number: params[:number])
   end
 
   def load_test_results

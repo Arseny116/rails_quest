@@ -1,6 +1,6 @@
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
-require "rails/test_help"
+require "rails/test_help" # автоматом делает бдшку для тестов
 
 module ActiveSupport
   class TestCase
